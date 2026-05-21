@@ -1,0 +1,26 @@
+site_name: Python 教学知识库
+site_description: 学生用 Python 基础学习文档
+theme:
+  name: material
+  language: zh
+  palette:
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs # 顶部标签页导航
+    - navigation.sections # 左侧分组
+    - search.highlight # 搜索高亮
+    - content.code.copy # 代码块一键复制
+
+nav:
+  - 首页: index.md
+  - 基础语法:
+      - 变量与数据类型: basics/variables.md
+      - 条件语句: basics/conditions.md
+      - 循环: basics/loops.md
+  - 函数:
+      - 定义与调用: functions/define.md
+      - 参数与返回值: functions/params.md
+
+plugins:
+  - search
